@@ -16,7 +16,6 @@ public class MockApi_Practice {
                 .then()
                 .assertThat()
                 .statusCode(200);
-
     }
 
     @Test
