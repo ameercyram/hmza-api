@@ -27,7 +27,7 @@ public class MockApi_Practice {
                 .prettyPeek()
                 .then()
                 .assertThat()
-                .statusCode(200);
+                .statusCode(200) ;
     }
 
     @Test
